@@ -8728,3 +8728,679 @@ DEBUG 2018-03-27 16:56:42,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       -
 DEBUG 2018-03-27 16:56:42,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.MultiTenancy.Dto.TenantDto
 INFO  2018-03-27 16:56:47,870 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
 INFO  2018-03-27 16:56:48,249 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 408.7011ms 404 
+DEBUG 2018-03-28 08:45:47,466 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-28 08:45:47,721 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-03-28 08:45:47,752 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.Web.Host.Startup.ASPNetCoreAngularAppWebHostModule, ASPNetCoreAngularApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppWebCoreModule, ASPNetCoreAngularApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppApplicationModule, ASPNetCoreAngularApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppCoreModule, ASPNetCoreAngularApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppEntityFrameworkModule, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:47,759 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-03-28 08:45:47,866 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 08:45:47,866 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 08:45:47,866 [1    ] o.Configuration.LanguageManagementConfig - Converted ASPNetCoreAngularApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 08:45:47,866 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 08:45:48,244 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppDbContext, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:45:48,683 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-28 08:45:48,691 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-28 08:45:48,695 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-28 08:45:48,697 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ASPNetCoreAngularApp
+DEBUG 2018-03-28 08:45:48,698 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-28 08:45:48,743 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-28 08:45:48,777 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-03-28 08:45:48,777 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-28 08:45:48,779 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Users.Dto.CreateUserDto
+DEBUG 2018-03-28 08:45:48,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Users.Dto.UserDto
+DEBUG 2018-03-28 08:45:48,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-28 08:45:48,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-28 08:45:48,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-28 08:45:48,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.PermissionDto
+DEBUG 2018-03-28 08:45:48,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.RoleDto
+DEBUG 2018-03-28 08:45:48,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-28 08:45:48,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.MultiTenancy.Dto.TenantDto
+INFO  2018-03-28 08:47:57,388 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/  
+INFO  2018-03-28 08:47:57,807 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,815 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 432.6408ms 200 text/html
+INFO  2018-03-28 08:47:57,940 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/typography.css  
+INFO  2018-03-28 08:47:57,940 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/reset.css  
+INFO  2018-03-28 08:47:57,941 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/screen.css  
+INFO  2018-03-28 08:47:57,942 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-03-28 08:47:57,942 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.slideto.min.js  
+INFO  2018-03-28 08:47:57,941 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-03-28 08:47:57,952 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,952 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,952 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,952 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,953 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.0979ms 200 text/css
+INFO  2018-03-28 08:47:57,953 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.1855ms 200 application/javascript
+INFO  2018-03-28 08:47:57,952 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,953 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.5108ms 200 application/javascript
+INFO  2018-03-28 08:47:57,952 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,954 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.4101ms 200 text/css
+INFO  2018-03-28 08:47:57,954 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.9337ms 200 text/css
+INFO  2018-03-28 08:47:57,957 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-03-28 08:47:57,957 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-03-28 08:47:57,958 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-03-28 08:47:57,959 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,959 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/lodash.min.js  
+INFO  2018-03-28 08:47:57,959 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.2751ms 200 application/javascript
+INFO  2018-03-28 08:47:57,960 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,961 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,961 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9488ms 200 application/javascript
+INFO  2018-03-28 08:47:57,961 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4147ms 200 application/javascript
+INFO  2018-03-28 08:47:57,961 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,964 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/backbone-min.js  
+INFO  2018-03-28 08:47:57,965 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-03-28 08:47:57,970 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,970 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,970 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.1984ms 200 application/javascript
+INFO  2018-03-28 08:47:57,971 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.7733ms 200 application/javascript
+INFO  2018-03-28 08:47:57,977 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.1598ms 200 application/javascript
+INFO  2018-03-28 08:47:57,977 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.6109ms 200 application/javascript
+INFO  2018-03-28 08:47:57,978 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.min.js  
+INFO  2018-03-28 08:47:57,980 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:57,994 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.0018ms 200 application/javascript
+INFO  2018-03-28 08:47:58,046 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-03-28 08:47:58,048 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:58,048 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0585ms 200 application/javascript
+INFO  2018-03-28 08:47:58,050 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jsoneditor.min.js  
+INFO  2018-03-28 08:47:58,051 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/marked.js  
+INFO  2018-03-28 08:47:58,052 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/swagger-oauth.js  
+INFO  2018-03-28 08:47:58,052 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:58,053 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:58,053 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:58,053 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9232ms 200 application/javascript
+INFO  2018-03-28 08:47:58,053 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9159ms 200 application/javascript
+INFO  2018-03-28 08:47:58,055 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.1272ms 200 application/javascript
+INFO  2018-03-28 08:47:58,212 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/logo_small.png  
+INFO  2018-03-28 08:47:58,214 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:58,214 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.8758ms 200 image/png
+INFO  2018-03-28 08:47:58,375 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/print.css  
+INFO  2018-03-28 08:47:58,377 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+INFO  2018-03-28 08:47:58,378 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:58,379 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4428ms 200 text/css
+INFO  2018-03-28 08:47:58,585 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.6247ms 200 application/json
+INFO  2018-03-28 08:47:58,827 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.js?_=1522219678824  
+INFO  2018-03-28 08:47:58,827 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/on-complete.js?_=1522219678825  
+INFO  2018-03-28 08:47:58,845 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'C:\Users\P068\Documents\GitHub\ASPNetCoreAngularApp\src\ASPNetCoreAngularApp.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-03-28 08:47:58,845 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\P068\Documents\GitHub\ASPNetCoreAngularApp\src\ASPNetCoreAngularApp.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-03-28 08:47:58,847 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-32x32.png  
+INFO  2018-03-28 08:47:58,850 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:58,850 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1099ms 200 image/png
+INFO  2018-03-28 08:47:58,851 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.9206ms 200 application/javascript
+INFO  2018-03-28 08:47:58,851 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.2091ms 200 application/javascript
+INFO  2018-03-28 08:47:58,876 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-16x16.png  
+INFO  2018-03-28 08:47:58,878 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-03-28 08:47:58,878 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.4185ms 200 image/png
+INFO  2018-03-28 08:48:22,515 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/throbber.gif  
+INFO  2018-03-28 08:48:22,516 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A'
+INFO  2018-03-28 08:48:22,516 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0885ms 200 image/gif
+INFO  2018-03-28 08:49:02,624 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/api/TokenAuth/Authenticate application/json-patch+json 99
+INFO  2018-03-28 08:49:02,626 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-03-28 08:49:02,626 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-03-28 08:49:03,144 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-03-28 08:49:03,144 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+WARN  2018-03-28 08:49:03,688 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 128
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 94
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-03-28 08:49:03,699 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 2 validation errors:
+WARN  2018-03-28 08:49:03,700 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - The Password field is required. (Password)
+WARN  2018-03-28 08:49:03,700 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - The UserNameOrEmailAddress field is required. (UserNameOrEmailAddress)
+INFO  2018-03-28 08:49:03,954 [12   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 08:49:03,972 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp.Web.Core) in 826.4717ms
+INFO  2018-03-28 08:49:03,978 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1353.9568ms 400 application/json; charset=utf-8
+INFO  2018-03-28 08:53:54,637 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/explorer_icons.png  
+INFO  2018-03-28 08:53:54,640 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/explorer_icons.png'. Physical path: 'N/A'
+INFO  2018-03-28 08:53:54,640 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4818ms 200 image/png
+INFO  2018-03-28 08:55:15,431 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/api/services/app/User/Create application/json-patch+json 298
+INFO  2018-03-28 08:55:15,431 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-03-28 08:55:15,431 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-03-28 08:55:15,443 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-03-28 08:55:15,443 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+WARN  2018-03-28 08:55:15,850 [14   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-03-28 08:55:15,853 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-03-28 08:55:15,853 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 08:55:15,853 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Users.UserAppService.Create (ASPNetCoreAngularApp.Application) in 410.2324ms
+INFO  2018-03-28 08:55:15,854 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 423.5079ms 401 application/json; charset=utf-8
+INFO  2018-03-28 09:08:44,091 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-03-28 09:08:44,093 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.2748ms 404 
+DEBUG 2018-03-28 10:11:58,757 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-28 10:11:58,786 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-03-28 10:11:58,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.Web.Host.Startup.ASPNetCoreAngularAppWebHostModule, ASPNetCoreAngularApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppWebCoreModule, ASPNetCoreAngularApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppApplicationModule, ASPNetCoreAngularApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppCoreModule, ASPNetCoreAngularApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppEntityFrameworkModule, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:58,834 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-03-28 10:11:58,919 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 10:11:58,920 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 10:11:58,920 [1    ] o.Configuration.LanguageManagementConfig - Converted ASPNetCoreAngularApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 10:11:58,920 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 10:11:59,299 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppDbContext, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 10:11:59,795 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-28 10:11:59,807 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-28 10:11:59,813 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-28 10:11:59,816 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ASPNetCoreAngularApp
+DEBUG 2018-03-28 10:11:59,818 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-28 10:11:59,854 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-28 10:11:59,901 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-03-28 10:11:59,901 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-28 10:11:59,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Users.Dto.CreateUserDto
+DEBUG 2018-03-28 10:11:59,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Users.Dto.UserDto
+DEBUG 2018-03-28 10:11:59,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-28 10:11:59,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-28 10:11:59,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-28 10:11:59,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.PermissionDto
+DEBUG 2018-03-28 10:11:59,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.RoleDto
+DEBUG 2018-03-28 10:11:59,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-28 10:11:59,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-28 11:12:51,868 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-28 11:12:51,931 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-03-28 11:12:51,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.Web.Host.Startup.ASPNetCoreAngularAppWebHostModule, ASPNetCoreAngularApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppWebCoreModule, ASPNetCoreAngularApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppApplicationModule, ASPNetCoreAngularApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppCoreModule, ASPNetCoreAngularApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppEntityFrameworkModule, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:51,969 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-03-28 11:12:52,029 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 11:12:52,029 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 11:12:52,029 [1    ] o.Configuration.LanguageManagementConfig - Converted ASPNetCoreAngularApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 11:12:52,029 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 11:12:52,374 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppDbContext, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:12:52,819 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-28 11:12:52,828 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-28 11:12:52,832 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-28 11:12:52,834 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ASPNetCoreAngularApp
+DEBUG 2018-03-28 11:12:52,835 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-28 11:12:52,865 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-28 11:12:52,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-03-28 11:12:52,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-28 11:12:52,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Users.Dto.CreateUserDto
+DEBUG 2018-03-28 11:12:52,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Users.Dto.UserDto
+DEBUG 2018-03-28 11:12:52,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-28 11:12:52,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-28 11:12:52,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-28 11:12:52,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.PermissionDto
+DEBUG 2018-03-28 11:12:52,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.RoleDto
+DEBUG 2018-03-28 11:12:52,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-28 11:12:52,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.MultiTenancy.Dto.TenantDto
+INFO  2018-03-28 11:13:04,890 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/api/TokenAuth/Authenticate  
+INFO  2018-03-28 11:13:05,295 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 417.2527ms 404 
+INFO  2018-03-28 11:13:27,582 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/api/TokenAuth/Authenticate  
+INFO  2018-03-28 11:13:27,583 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3434ms 404 
+INFO  2018-03-28 11:13:50,656 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-03-28 11:13:50,657 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9569ms 404 
+INFO  2018-03-28 11:14:46,758 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger  
+INFO  2018-03-28 11:14:46,836 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.5647ms 301 
+INFO  2018-03-28 11:14:46,896 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/  
+INFO  2018-03-28 11:14:47,026 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-03-28 11:14:47,033 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 137.5026ms 200 text/html
+INFO  2018-03-28 11:14:47,261 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/typography.css  
+INFO  2018-03-28 11:14:47,263 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/reset.css  
+INFO  2018-03-28 11:14:47,264 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-03-28 11:14:47,264 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-03-28 11:14:47,264 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-03-28 11:14:47,264 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-03-28 11:14:47,264 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.slideto.min.js  
+INFO  2018-03-28 11:14:47,265 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1169ms 304 text/css
+INFO  2018-03-28 11:14:47,265 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4403ms 304 text/css
+INFO  2018-03-28 11:14:47,266 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-03-28 11:14:47,266 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-03-28 11:14:47,264 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/screen.css  
+INFO  2018-03-28 11:14:47,267 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-03-28 11:14:47,268 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.031ms 304 text/css
+INFO  2018-03-28 11:14:47,283 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2018-03-28 11:14:47,283 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2018-03-28 11:14:47,283 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.024ms 304 application/javascript
+INFO  2018-03-28 11:14:47,283 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-03-28 11:14:47,283 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.1237ms 304 application/javascript
+INFO  2018-03-28 11:14:47,283 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.0782ms 304 application/javascript
+INFO  2018-03-28 11:14:47,283 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2018-03-28 11:14:47,283 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.1456ms 304 application/javascript
+INFO  2018-03-28 11:14:47,283 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-03-28 11:14:47,284 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.2468ms 304 application/javascript
+INFO  2018-03-28 11:14:47,298 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-03-28 11:14:47,302 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/lodash.min.js  
+INFO  2018-03-28 11:14:47,302 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/backbone-min.js  
+INFO  2018-03-28 11:14:47,304 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.min.js  
+INFO  2018-03-28 11:14:47,305 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-03-28 11:14:47,307 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-03-28 11:14:47,309 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-03-28 11:14:47,309 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-03-28 11:14:47,309 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-03-28 11:14:47,309 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-03-28 11:14:47,310 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.1838ms 304 application/javascript
+INFO  2018-03-28 11:14:47,310 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.8889ms 304 application/javascript
+INFO  2018-03-28 11:14:47,310 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.9236ms 304 application/javascript
+INFO  2018-03-28 11:14:47,310 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.7406ms 304 application/javascript
+INFO  2018-03-28 11:14:47,312 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2018-03-28 11:14:47,313 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.8708ms 304 application/javascript
+INFO  2018-03-28 11:14:47,324 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-03-28 11:14:47,324 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.3097ms 304 application/javascript
+INFO  2018-03-28 11:14:47,372 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jsoneditor.min.js  
+INFO  2018-03-28 11:14:47,372 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/marked.js  
+INFO  2018-03-28 11:14:47,372 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/swagger-oauth.js  
+INFO  2018-03-28 11:14:47,381 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-03-28 11:14:47,381 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-03-28 11:14:47,381 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.9928ms 304 application/javascript
+INFO  2018-03-28 11:14:47,381 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.2411ms 304 application/javascript
+INFO  2018-03-28 11:14:47,381 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-03-28 11:14:47,381 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.5985ms 304 application/javascript
+INFO  2018-03-28 11:14:48,149 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/logo_small.png  
+INFO  2018-03-28 11:14:48,176 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2018-03-28 11:14:48,176 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.5787ms 304 image/png
+INFO  2018-03-28 11:14:48,180 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/print.css  
+INFO  2018-03-28 11:14:48,181 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-03-28 11:14:48,181 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6034ms 304 text/css
+INFO  2018-03-28 11:14:48,312 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+INFO  2018-03-28 11:14:48,589 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 277.5033ms 200 application/json
+INFO  2018-03-28 11:14:48,913 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.js?_=1522228488911  
+INFO  2018-03-28 11:14:48,914 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/on-complete.js?_=1522228488912  
+INFO  2018-03-28 11:14:48,960 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'C:\Users\P068\Documents\GitHub\ASPNetCoreAngularApp\src\ASPNetCoreAngularApp.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-03-28 11:14:48,960 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\P068\Documents\GitHub\ASPNetCoreAngularApp\src\ASPNetCoreAngularApp.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-03-28 11:14:48,989 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.6764ms 200 application/javascript
+INFO  2018-03-28 11:14:48,990 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.6483ms 200 application/javascript
+INFO  2018-03-28 11:15:52,943 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/api/TokenAuth/Authenticate  
+INFO  2018-03-28 11:15:52,945 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.277ms 404 
+INFO  2018-03-28 11:25:30,165 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/api/TokenAuth/Authenticate text/plain 59
+INFO  2018-03-28 11:25:31,261 [6    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 415
+INFO  2018-03-28 11:25:31,266 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp.Web.Core) in 211.4049ms
+INFO  2018-03-28 11:25:31,285 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1119.6679ms 415 
+DEBUG 2018-03-28 11:33:52,251 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-28 11:33:53,522 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-03-28 11:33:53,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.Web.Host.Startup.ASPNetCoreAngularAppWebHostModule, ASPNetCoreAngularApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppWebCoreModule, ASPNetCoreAngularApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppApplicationModule, ASPNetCoreAngularApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppCoreModule, ASPNetCoreAngularApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppEntityFrameworkModule, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:53,586 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-03-28 11:33:53,731 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 11:33:53,731 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 11:33:53,731 [1    ] o.Configuration.LanguageManagementConfig - Converted ASPNetCoreAngularApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 11:33:53,731 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-28 11:33:54,626 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppDbContext, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 11:33:56,277 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-28 11:33:56,291 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-28 11:33:56,296 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-28 11:33:56,335 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ASPNetCoreAngularApp
+DEBUG 2018-03-28 11:33:56,336 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-28 11:33:57,073 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-28 11:33:57,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-03-28 11:33:57,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-28 11:33:57,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Users.Dto.CreateUserDto
+DEBUG 2018-03-28 11:33:57,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Users.Dto.UserDto
+DEBUG 2018-03-28 11:33:57,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-28 11:33:57,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-28 11:33:57,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-28 11:33:57,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.PermissionDto
+DEBUG 2018-03-28 11:33:57,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.Roles.Dto.RoleDto
+DEBUG 2018-03-28 11:33:57,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-28 11:33:57,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp.MultiTenancy.Dto.TenantDto
+INFO  2018-03-28 11:34:07,592 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-03-28 11:34:08,678 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1126.3338ms 404 
+INFO  2018-03-28 11:34:08,783 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2018-03-28 11:34:08,810 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.8902ms 404 
+INFO  2018-03-28 11:34:09,379 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2018-03-28 11:34:09,407 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.64ms 404 
+INFO  2018-03-28 11:39:15,951 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 59
+INFO  2018-03-28 11:39:22,312 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp.Web.Core) with arguments (ASPNetCoreAngularApp.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+WARN  2018-03-28 11:39:52,959 [25   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2018-03-28 11:40:43,912 [31   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at ASPNetCoreAngularApp.Controllers.TokenAuthController.<GetLoginResultAsync>d__14.MoveNext() in C:\Users\P068\Documents\GitHub\ASPNetCoreAngularApp\src\ASPNetCoreAngularApp.Web.Core\Controllers\TokenAuthController.cs:line 192
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ASPNetCoreAngularApp.Controllers.TokenAuthController.<Authenticate>d__8.MoveNext() in C:\Users\P068\Documents\GitHub\ASPNetCoreAngularApp\src\ASPNetCoreAngularApp.Web.Core\Controllers\TokenAuthController.cs:line 55
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-03-28 11:40:43,940 [31   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 11:40:43,999 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp.Web.Core) in 82787.2096ms
+INFO  2018-03-28 11:40:44,047 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 88114.6428ms 500 application/json; charset=utf-8
+INFO  2018-03-28 11:42:17,808 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 59
+INFO  2018-03-28 11:42:17,833 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp.Web.Core) with arguments (ASPNetCoreAngularApp.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+WARN  2018-03-28 11:48:23,770 [36   ] Microsoft.AspNetCore.Server.Kestrel      - Heartbeat took longer than "00:00:01" at "03/28/2018 09:45:35 +00:00".
+INFO  2018-03-28 11:48:24,394 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 11:48:24,459 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp.Web.Core) in 366607.9683ms
+INFO  2018-03-28 11:48:24,487 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 366660.4524ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:17:48,294 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll application/json 
+INFO  2018-03-28 12:17:48,394 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:17:48,437 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:17:49,290 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Users.UserAppService.GetAll (ASPNetCoreAngularApp.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-03-28 12:17:50,635 [44   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:17:50,663 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Users.UserAppService.GetAll (ASPNetCoreAngularApp.Application) in 1623.6974ms
+INFO  2018-03-28 12:17:50,690 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2382.0556ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:41:47,085 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-03-28 12:41:47,114 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:41:47,146 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.0153ms 204 
+INFO  2018-03-28 12:41:47,214 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-03-28 12:41:47,222 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:41:47,255 [36   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-03-28 12:41:47,296 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:41:47,327 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-03-28 12:41:48,375 [34   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-28 12:41:48,454 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1173.9389ms
+INFO  2018-03-28 12:41:48,481 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1266.6076ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:41:48,513 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-03-28 12:41:48,521 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:41:48,530 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.6033ms 204 
+INFO  2018-03-28 12:41:48,559 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-03-28 12:41:48,563 [42   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:41:48,597 [42   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:41:48,699 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Sessions.SessionAppService.GetCurrentLoginInformations (ASPNetCoreAngularApp.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-03-28 12:41:48,732 [42   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:41:48,783 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Sessions.SessionAppService.GetCurrentLoginInformations (ASPNetCoreAngularApp.Application) in 183.8032ms
+INFO  2018-03-28 12:41:48,792 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 230.3763ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:42:27,999 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-03-28 12:42:28,024 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:28,030 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.2662ms 204 
+INFO  2018-03-28 12:42:28,062 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2018-03-28 12:42:28,087 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:28,119 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:28,147 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp.Web.Core) with arguments (ASPNetCoreAngularApp.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-03-28 12:42:51,096 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:42:51,121 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp.Web.Core) in 23002.4994ms
+INFO  2018-03-28 12:42:51,145 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23084.5536ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:42:52,493 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-03-28 12:42:52,519 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:52,527 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.972ms 204 
+INFO  2018-03-28 12:42:52,588 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-03-28 12:42:52,595 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:52,625 [34   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:42:52,633 [34   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:42:53,288 [42   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:53,315 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-03-28 12:42:53,499 [43   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-28 12:42:53,512 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 239.4227ms
+INFO  2018-03-28 12:42:53,545 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 932.0717ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:42:53,554 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-03-28 12:42:53,560 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:53,567 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.3521ms 204 
+INFO  2018-03-28 12:42:53,577 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-03-28 12:42:53,601 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:53,607 [43   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:42:53,631 [43   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:42:53,662 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:53,691 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Sessions.SessionAppService.GetCurrentLoginInformations (ASPNetCoreAngularApp.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-03-28 12:42:53,856 [34   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:42:53,865 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Sessions.SessionAppService.GetCurrentLoginInformations (ASPNetCoreAngularApp.Application) in 221.0815ms
+INFO  2018-03-28 12:42:53,871 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 294.3194ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:42:55,026 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYhC%2FSSsIYsiEwVlupcWZ34ayfk214EP4QnRasooI3Ok%2FrsKoyrJ2GkdiqQDr1ExlkANttl014JVvwmNm6i%2BgyXd%2FgE%2FyNPpXu6uW5if%2BlpyA0Qcjw5Os0kDtI3hioGZ86YLyuGmOIOO%2Bs4tSHC1JRwjYCnpLptPuXpMqtVqxep3HiYxzqFp858hNNeQJSb6kdgKPmrPoUmVDlYO2lxGouPL354j4UX99NtHS%2FGndJ7JwLF2PtFIm%2BlZ3VgUDtIELYaLcsLfGbUM5xXadmFK0SdMxDP8fQfI5gdlRSyN94FbYiLXujLgG%2BQ5F55yy%2BwERSZnQDvKPBE2uJGaZ4yTY4kPzlpkNcBFEayoLR38g5%2BTgDMqe%2FtgoKnIlsXD9xPC19qc%2Br9UJVcY%2FflQlCaVAnhhXbh8hVty7BcsAq5oHI50uxVly2XMh8YluCIDcup%2FTtmLe9kBE5R4GCrX42k0OMKn1ttCLnD06a4q80cJNIcgqxrfySIqlT7e1ACTRlXTX6gq1r%2BkcFR7h8Kwa%2B53%2FWmrR1TImnFsUQgUOeczzXZbg%3D%3D  
+INFO  2018-03-28 12:42:55,052 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:42:55,124 [43   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:42:55,129 [43   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:42:55,522 [43   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-28 12:42:55,833 [24   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-28 12:42:55,862 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"b2fa4c5f-79e3-4b83-9877-a60f04169530","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-28T12:42:55.8570208+02:00","Properties":{}}
+DEBUG 2018-03-28 12:42:55,923 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: b2fa4c5f-79e3-4b83-9877-a60f04169530
+INFO  2018-03-28 12:43:19,232 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-03-28 12:43:19,260 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:43:19,292 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.2738ms 204 
+INFO  2018-03-28 12:43:19,305 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-03-28 12:43:19,311 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:43:19,338 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:43:19,363 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:43:19,402 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:43:19,723 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.MultiTenancy.TenantAppService.GetAll (ASPNetCoreAngularApp.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-03-28 12:43:20,222 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:43:20,254 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.MultiTenancy.TenantAppService.GetAll (ASPNetCoreAngularApp.Application) in 854.9675ms
+INFO  2018-03-28 12:43:20,259 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 957.5528ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:46:28,906 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-03-28 12:46:28,976 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-03-28 12:46:28,980 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:46:29,029 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:46:29,052 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 123.0153ms 204 
+INFO  2018-03-28 12:46:29,121 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 146.3324ms 204 
+INFO  2018-03-28 12:46:29,169 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles application/json 
+INFO  2018-03-28 12:46:29,236 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-03-28 12:46:29,259 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:46:29,286 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:46:29,312 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:46:29,381 [34   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:46:29,403 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:46:29,415 [34   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:46:29,447 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:46:29,472 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:46:29,543 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Users.UserAppService.GetRoles (ASPNetCoreAngularApp.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-03-28 12:46:29,545 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Users.UserAppService.GetAll (ASPNetCoreAngularApp.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-03-28 12:46:29,911 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:46:29,924 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Users.UserAppService.GetRoles (ASPNetCoreAngularApp.Application) in 471.0134ms
+INFO  2018-03-28 12:46:29,950 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 825.1669ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:46:30,161 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:46:30,188 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Users.UserAppService.GetAll (ASPNetCoreAngularApp.Application) in 739.3893ms
+INFO  2018-03-28 12:46:30,216 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1020.9325ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:55:36,117 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-03-28 12:55:36,193 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:36,265 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.2698ms 204 
+INFO  2018-03-28 12:55:36,291 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-03-28 12:55:36,365 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:36,367 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions application/json 
+INFO  2018-03-28 12:55:36,426 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 171.7158ms 204 
+INFO  2018-03-28 12:55:36,449 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:36,503 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions application/json 
+INFO  2018-03-28 12:55:36,509 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:55:36,577 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:36,580 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:55:36,605 [34   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:55:36,629 [34   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:55:36,660 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:36,684 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:36,946 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Roles.RoleAppService.GetAllPermissions (ASPNetCoreAngularApp.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-03-28 12:55:36,949 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Roles.RoleAppService.GetAllPermissions (ASPNetCoreAngularApp.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-03-28 12:55:37,319 [42   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:55:37,350 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Roles.RoleAppService.GetAllPermissions (ASPNetCoreAngularApp.Application) in 663.3767ms
+INFO  2018-03-28 12:55:37,376 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 898.0682ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:55:37,551 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:55:37,557 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Roles.RoleAppService.GetAllPermissions (ASPNetCoreAngularApp.Application) in 914.7676ms
+INFO  2018-03-28 12:55:37,582 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1241.1877ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:55:38,875 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-03-28 12:55:38,904 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:38,972 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.6643ms 204 
+INFO  2018-03-28 12:55:38,974 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-03-28 12:55:39,022 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:39,048 [34   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:55:39,072 [34   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:55:39,103 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:39,133 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Roles.RoleAppService.GetAll (ASPNetCoreAngularApp.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-03-28 12:55:39,699 [42   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:55:39,726 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Roles.RoleAppService.GetAll (ASPNetCoreAngularApp.Application) in 621.5713ms
+INFO  2018-03-28 12:55:39,751 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 798.5414ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:55:46,535 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/Get?Id=1  
+INFO  2018-03-28 12:55:46,561 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:46,567 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.1674ms 204 
+INFO  2018-03-28 12:55:46,616 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/Get?Id=1 application/json 
+INFO  2018-03-28 12:55:46,640 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:46,665 [34   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:55:46,690 [34   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:55:46,703 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:55:46,730 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Roles.RoleAppService.Get (ASPNetCoreAngularApp.Application) with arguments (Abp.Application.Services.Dto.EntityDto`1[System.Int32]) - ModelState is Valid
+INFO  2018-03-28 12:55:47,137 [43   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:55:47,144 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Roles.RoleAppService.Get (ASPNetCoreAngularApp.Application) in 440.5297ms
+INFO  2018-03-28 12:55:47,150 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 578.4401ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:57:31,425 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/Create  
+INFO  2018-03-28 12:57:31,451 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:57:31,458 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.8208ms 204 
+INFO  2018-03-28 12:57:31,469 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Role/Create application/json 152
+INFO  2018-03-28 12:57:31,495 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:57:31,522 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:57:31,527 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:57:31,559 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:57:31,602 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Roles.RoleAppService.Create (ASPNetCoreAngularApp.Application) with arguments (ASPNetCoreAngularApp.Roles.Dto.CreateRoleDto) - ModelState is Valid
+INFO  2018-03-28 12:57:32,627 [43   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:57:32,653 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Roles.RoleAppService.Create (ASPNetCoreAngularApp.Application) in 1092.1549ms
+INFO  2018-03-28 12:57:32,679 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1191.2108ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:57:32,691 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-03-28 12:57:32,723 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:57:32,730 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.1497ms 204 
+INFO  2018-03-28 12:57:32,745 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-03-28 12:57:32,756 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:57:32,786 [43   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:57:32,792 [43   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:57:32,822 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:57:32,853 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Roles.RoleAppService.GetAll (ASPNetCoreAngularApp.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-03-28 12:57:33,254 [43   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:57:33,283 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Roles.RoleAppService.GetAll (ASPNetCoreAngularApp.Application) in 459.3187ms
+INFO  2018-03-28 12:57:33,318 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 544.9475ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:58:38,048 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-03-28 12:58:38,075 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:58:38,082 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.2082ms 204 
+INFO  2018-03-28 12:58:38,097 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles application/json 
+INFO  2018-03-28 12:58:38,127 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:58:38,157 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:58:38,182 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:58:38,216 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:58:38,227 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Users.UserAppService.GetRoles (ASPNetCoreAngularApp.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-03-28 12:58:38,559 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:58:38,590 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Users.UserAppService.GetRoles (ASPNetCoreAngularApp.Application) in 368.4343ms
+INFO  2018-03-28 12:58:38,625 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 501.5781ms 200 application/json; charset=utf-8
+INFO  2018-03-28 12:58:41,025 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-03-28 12:58:41,050 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:58:41,077 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.8228ms 204 
+INFO  2018-03-28 12:58:41,105 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-03-28 12:58:41,129 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:58:41,155 [36   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 12:58:41,180 [36   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 12:58:41,208 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 12:58:41,233 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Users.UserAppService.GetAll (ASPNetCoreAngularApp.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-03-28 12:58:41,691 [44   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 12:58:41,717 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Users.UserAppService.GetAll (ASPNetCoreAngularApp.Application) in 507.0066ms
+INFO  2018-03-28 12:58:41,747 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 662.2214ms 200 application/json; charset=utf-8
+INFO  2018-03-28 14:04:36,591 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/Create  
+INFO  2018-03-28 14:04:36,598 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 14:04:36,605 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.5554ms 204 
+INFO  2018-03-28 14:04:36,634 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/Create application/json 159
+INFO  2018-03-28 14:04:36,664 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 14:04:36,698 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 14:04:36,725 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 14:04:36,913 [42   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 14:04:37,654 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Users.UserAppService.Create (ASPNetCoreAngularApp.Application) with arguments (ASPNetCoreAngularApp.Users.Dto.CreateUserDto) - ModelState is Valid
+DEBUG 2018-03-28 14:05:28,442 [36   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: b2fa4c5f-79e3-4b83-9877-a60f04169530
+INFO  2018-03-28 14:05:46,592 [24   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-28 14:05:46,626 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4971622.3215ms 101 
+INFO  2018-03-28 14:07:12,603 [42   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 14:07:12,632 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Users.UserAppService.Create (ASPNetCoreAngularApp.Application) in 155716.753ms
+INFO  2018-03-28 14:07:12,638 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 156023.5571ms 200 application/json; charset=utf-8
+INFO  2018-03-28 14:07:12,650 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-03-28 14:07:12,676 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 14:07:12,686 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.6702ms 204 
+INFO  2018-03-28 14:07:12,722 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-03-28 14:07:12,730 [42   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 14:07:12,759 [42   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 14:07:12,770 [42   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 14:07:12,803 [42   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 14:07:12,833 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.Users.UserAppService.GetAll (ASPNetCoreAngularApp.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-03-28 14:07:13,417 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 14:07:13,443 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.Users.UserAppService.GetAll (ASPNetCoreAngularApp.Application) in 642.9102ms
+INFO  2018-03-28 14:07:13,450 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 733.3548ms 200 application/json; charset=utf-8
+INFO  2018-03-28 14:32:45,573 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-03-28 14:32:45,598 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 14:32:45,603 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.7804ms 204 
+INFO  2018-03-28 14:32:45,632 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-03-28 14:32:45,636 [42   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 14:32:45,697 [42   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-03-28 14:32:45,723 [42   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-03-28 14:32:45,885 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-03-28 14:32:45,916 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp.MultiTenancy.TenantAppService.GetAll (ASPNetCoreAngularApp.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-03-28 14:32:46,251 [42   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-28 14:32:46,258 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp.MultiTenancy.TenantAppService.GetAll (ASPNetCoreAngularApp.Application) in 374.0623ms
+INFO  2018-03-28 14:32:46,287 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 631.7187ms 200 application/json; charset=utf-8

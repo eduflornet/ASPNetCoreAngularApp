@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "015b0605-ac6b-4c15-8ec7-703b5ebc69f6",
+		"name": "ASP.NET Core Angular App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST Authenticate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"userNameOrEmailAddress\": \"admin\",\n\"password\": \"123que\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:21021/api/TokenAuth/Authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "21021",
+					"path": [
+						"api",
+						"TokenAuth",
+						"Authenticate"
+					]
+				},
+				"description": "Authenticate "
+			},
+			"response": []
+		},
+		{
+			"name": "GET user/getAll",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6IjUzYWEwZDViLWYzMmQtOWI5Yi0xMzE1LTM5ZTU3YTA5NDJmYiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwic3ViIjoiMSIsImp0aSI6IjBhYzQ1YjgxLTcyZmQtNDM2Yy05YjYzLWZjMWRkMzliOGI4OCIsImlhdCI6MTUyMjIzMDE1OSwibmJmIjoxNTIyMjMwMTU5LCJleHAiOjE1MjIzMTY1NTksImlzcyI6IkFTUE5ldENvcmVBbmd1bGFyQXBwIiwiYXVkIjoiQVNQTmV0Q29yZUFuZ3VsYXJBcHAifQ.g_qmuXu9JBHlgh9ZipwLeeJMBrVEF_yigCLZ1xc0z9c"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"userNameOrEmailAddress\": \"admin\",\n\"password\": \"123que\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:21021/api/services/app/user/getAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "21021",
+					"path": [
+						"api",
+						"services",
+						"app",
+						"user",
+						"getAll"
+					]
+				},
+				"description": "user/getAll"
+			},
+			"response": []
+		}
+	]
+}

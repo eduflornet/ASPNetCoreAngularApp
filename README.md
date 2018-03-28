@@ -24,15 +24,67 @@ By example:
 
 } 
 
+From VS 2017 in debug Mode you could run net core app:
+
+Test the following URL:
+
+http://localhost:21021/swagger/
+
+
 From console using dotnet ef database update:
 
 dotnet ef database update -c ASPNetCoreAngularAppDbContext
 
 Start the project ASPNetCoreAngularApp.Web.Host
 
-Test the following URL:
+Run with dotnet CLI in http://localhost:5000/ using the console:
 
-http://localhost:21021/swagger/
+ASPNetCoreAngularApp\src> dotnet run -p .\ASPNetCoreAngularApp.Web.Host\
+
+
+I will be updating the postman file: ASP.NET Core Angular App.postman_collection.
+
+By example to get a token with Postman
+
+http://localhost:21021/api/TokenAuth/Authenticate
+
+Body
+
+{
+"userNameOrEmailAddress": "admin",
+"password": "123qwe"
+}
+
+Before starting angular, it is necessary to install the following:
+
+NodeJs y NPM
+http://blog.teamtreehouse.com/install-node-js-npm-windows
+
+Yarn
+https://yarnpkg.com/lang/en/docs/install/
+
+From console download and install:
+
+npm install yarn
+
+
+
+ASPNetCoreAngularApp\src> npm install
+
+ASPNetCoreAngularApp\src> npm start
+
+Run Angular part http://localhost:4200/ using the console:
+
+
+ASPNetCoreAngularApp\src> npm run hmr
+
+
+# Reference
+
+Startup Template Angular
+
+https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular
+
 
 # Download
 

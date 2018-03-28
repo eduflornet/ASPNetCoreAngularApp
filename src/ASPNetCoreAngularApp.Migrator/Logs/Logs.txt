@@ -1,0 +1,19 @@
+﻿DEBUG 2018-03-28 08:42:17,718 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-28 08:42:18,181 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2018-03-28 08:42:18,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.Migrator.ASPNetCoreAngularAppMigratorModule, ASPNetCoreAngularApp.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:18,847 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppEntityFrameworkModule, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:18,847 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp.ASPNetCoreAngularAppCoreModule, ASPNetCoreAngularApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:18,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:18,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:18,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:18,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:18,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:18,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:18,852 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2018-03-28 08:42:19,686 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ASPNetCoreAngularApp.EntityFrameworkCore.ASPNetCoreAngularAppDbContext, ASPNetCoreAngularApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-28 08:42:20,764 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-03-28 08:42:20,774 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-28 08:42:20,780 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-28 08:42:20,782 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ASPNetCoreAngularApp
+INFO  2018-03-28 08:42:21,011 [1    ] ASPNetCoreAngularApp.Migrator.Log        - Host database: server=edupocs.database.windows.net,1433;initial catalog=Demos2018;persist security info=False;user id=*****;password=*****;multipleactiveresultsets=False;trustservercertificate=False;connection timeout=30
+INFO  2018-03-28 08:42:21,011 [1    ] ASPNetCoreAngularApp.Migrator.Log        - Continue to migration for this host database and all tenants..? (Y/N): 
